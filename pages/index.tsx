@@ -173,12 +173,12 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Todo App using Next.js + Tigris</title>
-        <meta name="description" content="Tigris app tutorial" />
+        <title>Tigris x Vercel Testy-Westy</title>
+        <meta name="description" content="extremely impressive app do not steal" />
       </Head>
 
       <div className={styles.container}>
-        <h2>Sample Todo app using Next.js and Tigris</h2>
+        <h2>ENEMIES LIST - TOP SECRET DO NOT PEEK!!!</h2>
 
         {/* Search Header */}
         <div className={styles.searchHeader}>
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
           {/* Todo Item List */}
           {todoList.length < 1 ? (
             <p className={styles.noItems}>
-              {viewMode == 'search' ? 'No items found.. ' : 'Add a todo by typing in the field above and hit Add!'}
+              {viewMode == 'search' ? 'No items found.. ' : 'Add an enemy by typing in the field above and hitting Add!'}
             </p>
           ) : (
             <ul>
@@ -233,8 +233,8 @@ const Home: NextPage = () => {
           )}
         </div>
 
-        <a href="https://tigrisdata.com/">
-          <Image src="/tigris_logo.svg" alt="Tigris Logo" width={100} height={100} />
+        <a href="https://www.maxkuhn.ca/">
+          <Image src="/cthulhu.png" alt="a little monster guy with a keyboard" width={100} height={100} />
         </a>
       </div>
     </div>
